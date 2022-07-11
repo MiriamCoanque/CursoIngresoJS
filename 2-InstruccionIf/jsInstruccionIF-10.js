@@ -25,7 +25,9 @@ function mostrar()
 			alert(nota + ", aprobó");
 		}
 		else
+		{
 			alert(nota + ", vamos, la proxima se puede");
+		}
 	}
 
 }//FIN DE LA FUNCIÓN
