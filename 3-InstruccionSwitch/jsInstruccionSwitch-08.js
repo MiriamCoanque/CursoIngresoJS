@@ -1,6 +1,22 @@
+/*Al seleccionar un destino informar si hace FRIO o CALOR en ese destino*/
+
 function mostrar()
 {
-	var destinoIngresado =txtIdDestino.value;
-	alert(destinoIngresado);
+	let destino;
+
+	destino=document.getElementById("txtIdDestino").value;
+
+	switch(destino)
+	{
+		case "Bariloche":
+		case "Ushuaia":
+		alert("Hace frio");
+		break;
+
+		case "Cataratas":
+		case "Mar del plata":
+		alert("Hace calor");
+		break;
+	}
 
 }//FIN DE LA FUNCIÓN

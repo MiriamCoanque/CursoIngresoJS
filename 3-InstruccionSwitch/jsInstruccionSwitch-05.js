@@ -10,7 +10,8 @@ function mostrar()
 
 	/parsear si no se usan " " en el case/
 
-	switch(hora){
+	switch(hora)
+	{
 		case 7:
 		case 8:
 		case 9:
